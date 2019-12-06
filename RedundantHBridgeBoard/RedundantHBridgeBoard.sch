@@ -1,0 +1,718 @@
+EESchema Schematic File Version 4
+LIBS:RedundantHBridgeBoard-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_Motor:DRV8848 U?
+U 1 1 5DB2BFD4
+P 5750 2700
+F 0 "U?" H 5750 3481 50  0000 C CNN
+F 1 "DRV8848" H 5750 3390 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 5750 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8848.pdf" H 4600 4050 50  0001 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8848 U?
+U 1 1 5DB2D223
+P 5750 4850
+F 0 "U?" H 5750 5631 50  0000 C CNN
+F 1 "DRV8848" H 5750 5540 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 5750 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8848.pdf" H 4600 6200 50  0001 C CNN
+	1    5750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB42FB0
+P 3350 1850
+F 0 "U?" H 3325 2117 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 2026 50  0000 C CNN
+F 2 "" H 3350 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 1850 50  0001 C CNN
+	1    3350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB441A1
+P 3350 2350
+F 0 "U?" H 3325 2617 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 2526 50  0000 C CNN
+F 2 "" H 3350 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB4500F
+P 3350 2900
+F 0 "U?" H 3325 3167 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 3076 50  0000 C CNN
+F 2 "" H 3350 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 2900 50  0001 C CNN
+	1    3350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB4617D
+P 3350 3400
+F 0 "U?" H 3325 3667 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 3576 50  0000 C CNN
+F 2 "" H 3350 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3400 50  0001 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB46E6B
+P 3350 4000
+F 0 "U?" H 3325 4267 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 4176 50  0000 C CNN
+F 2 "" H 3350 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 4000 50  0001 C CNN
+	1    3350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB47DCE
+P 3350 4500
+F 0 "U?" H 3325 4767 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 4676 50  0000 C CNN
+F 2 "" H 3350 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB29D7B
+P 3350 5200
+F 0 "U?" H 3325 5467 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 5376 50  0000 C CNN
+F 2 "" H 3350 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 5200 50  0001 C CNN
+	1    3350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G00 U?
+U 1 1 5DB2BB92
+P 3350 5700
+F 0 "U?" H 3325 5967 50  0000 C CNN
+F 1 "74AHC1G00" H 3325 5876 50  0000 C CNN
+F 2 "" H 3350 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 5700 50  0001 C CNN
+	1    3350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1850 5000 1850
+Wire Wire Line
+	5000 1850 5000 2700
+Wire Wire Line
+	5000 2700 5150 2700
+Wire Wire Line
+	3600 2350 4950 2350
+Wire Wire Line
+	4950 2350 4950 2800
+Wire Wire Line
+	4950 2800 5150 2800
+Wire Wire Line
+	3600 2900 5000 2900
+Wire Wire Line
+	5000 2900 5000 3000
+Wire Wire Line
+	5000 3000 5150 3000
+Wire Wire Line
+	3600 3400 5000 3400
+Wire Wire Line
+	5000 3400 5000 3100
+Wire Wire Line
+	5000 3100 5150 3100
+Wire Wire Line
+	3600 4000 5000 4000
+Wire Wire Line
+	5000 4000 5000 4850
+Wire Wire Line
+	5000 4850 5150 4850
+Wire Wire Line
+	3600 4500 4950 4500
+Wire Wire Line
+	4950 4500 4950 4950
+Wire Wire Line
+	4950 4950 5150 4950
+Wire Wire Line
+	3600 5200 4950 5200
+Wire Wire Line
+	4950 5200 4950 5150
+Wire Wire Line
+	4950 5150 5150 5150
+Wire Wire Line
+	3600 5700 5000 5700
+Wire Wire Line
+	5000 5700 5000 5250
+Wire Wire Line
+	5000 5250 5150 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5DB4911E
+P 5600 5850
+F 0 "#PWR?" H 5600 5600 50  0001 C CNN
+F 1 "GND" H 5605 5677 50  0000 C CNN
+F 2 "" H 5600 5850 50  0001 C CNN
+F 3 "" H 5600 5850 50  0001 C CNN
+	1    5600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5450 5750 5450
+Wire Wire Line
+	5700 5850 5600 5850
+Wire Wire Line
+	5700 5450 5700 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5DB4A00A
+P 5600 3500
+F 0 "#PWR?" H 5600 3250 50  0001 C CNN
+F 1 "GND" H 5605 3327 50  0000 C CNN
+F 2 "" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3400 5700 3300
+Wire Wire Line
+	5700 3300 5750 3300
+Wire Wire Line
+	5700 3400 5600 3400
+Wire Wire Line
+	5600 3400 5600 3500
+$Comp
+L 74xGxx:74AUC1G74 U?
+U 1 1 5DB4BAC9
+P 7550 6000
+F 0 "U?" H 7550 6431 50  0000 C CNN
+F 1 "74AUC1G74" H 7550 6340 50  0000 C CNN
+F 2 "" H 7550 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AUC1G74 U?
+U 1 1 5DB4C91D
+P 8400 6000
+F 0 "U?" H 8400 6431 50  0000 C CNN
+F 1 "74AUC1G74" H 8400 6340 50  0000 C CNN
+F 2 "" H 8400 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8400 6000 50  0001 C CNN
+	1    8400 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6100 7850 6100
+Wire Wire Line
+	7850 6100 7850 5600
+Wire Wire Line
+	7850 5600 7300 5600
+Wire Wire Line
+	7300 5600 7300 5900
+Wire Wire Line
+	8650 6100 8800 6100
+Wire Wire Line
+	8800 6100 8800 5600
+Wire Wire Line
+	8800 5600 8150 5600
+Wire Wire Line
+	8150 5600 8150 5900
+Wire Wire Line
+	7800 5900 7900 5900
+Wire Wire Line
+	8050 5900 8050 6100
+Wire Wire Line
+	8050 6100 8150 6100
+$Comp
+L Device:L L?
+U 1 1 5DB4F63B
+P 10000 1900
+F 0 "L?" H 10053 1946 50  0000 L CNN
+F 1 "L" H 10053 1855 50  0000 L CNN
+F 2 "" H 10000 1900 50  0001 C CNN
+F 3 "~" H 10000 1900 50  0001 C CNN
+	1    10000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DB4FEBB
+P 10000 3250
+F 0 "L?" H 10053 3296 50  0000 L CNN
+F 1 "L" H 10053 3205 50  0000 L CNN
+F 2 "" H 10000 3250 50  0001 C CNN
+F 3 "~" H 10000 3250 50  0001 C CNN
+	1    10000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DB51195
+P 9950 4450
+F 0 "L?" H 10003 4496 50  0000 L CNN
+F 1 "L" H 10003 4405 50  0000 L CNN
+F 2 "" H 9950 4450 50  0001 C CNN
+F 3 "~" H 9950 4450 50  0001 C CNN
+	1    9950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB5A2A0
+P 9450 1500
+F 0 "U?" H 9450 1814 50  0000 C CNN
+F 1 "74LVC1G11" H 9450 1723 50  0000 C CNN
+F 2 "" H 9450 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9450 1500 50  0001 C CNN
+	1    9450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB5B798
+P 9450 2250
+F 0 "U?" H 9450 2564 50  0000 C CNN
+F 1 "74LVC1G11" H 9450 2473 50  0000 C CNN
+F 2 "" H 9450 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9450 2250 50  0001 C CNN
+	1    9450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB5ECB4
+P 9500 2950
+F 0 "U?" H 9500 3264 50  0000 C CNN
+F 1 "74LVC1G11" H 9500 3173 50  0000 C CNN
+F 2 "" H 9500 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 2950 50  0001 C CNN
+	1    9500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB5F9B2
+P 9500 3500
+F 0 "U?" H 9500 3814 50  0000 C CNN
+F 1 "74LVC1G11" H 9500 3723 50  0000 C CNN
+F 2 "" H 9500 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB66E9A
+P 9500 4200
+F 0 "U?" H 9500 4514 50  0000 C CNN
+F 1 "74LVC1G11" H 9500 4423 50  0000 C CNN
+F 2 "" H 9500 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 4200 50  0001 C CNN
+	1    9500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G11 U?
+U 1 1 5DB67C0A
+P 9500 4750
+F 0 "U?" H 9500 5064 50  0000 C CNN
+F 1 "74LVC1G11" H 9500 4973 50  0000 C CNN
+F 2 "" H 9500 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 4750 50  0001 C CNN
+	1    9500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1500 10000 1500
+Wire Wire Line
+	9750 2250 10000 2250
+Wire Wire Line
+	9800 2950 10000 2950
+Wire Wire Line
+	9800 3500 10000 3500
+Wire Wire Line
+	10000 3500 10000 3400
+Wire Wire Line
+	9800 4200 9950 4200
+Wire Wire Line
+	9950 4200 9950 4300
+Wire Wire Line
+	9800 4750 9950 4750
+Wire Wire Line
+	10000 2950 10000 3100
+Wire Wire Line
+	10000 1750 10000 1500
+Wire Wire Line
+	10000 2050 10000 2250
+Wire Wire Line
+	9950 4750 9950 4600
+Wire Wire Line
+	8400 4850 8650 4850
+Wire Wire Line
+	8400 4850 8400 4300
+Wire Wire Line
+	8400 4300 9200 4300
+Wire Wire Line
+	7550 4750 7900 4750
+Wire Wire Line
+	7550 4750 7550 4200
+Wire Wire Line
+	7550 4200 9200 4200
+$Comp
+L 74xGxx:74LVC1GU04DRL U?
+U 1 1 5DB96BC5
+P 8450 3200
+F 0 "U?" H 8794 3246 50  0000 L CNN
+F 1 "74LVC1GU04DRL" H 8794 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-553" H 8450 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf" H 8375 3200 50  0001 C CNN
+	1    8450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1GU04DRL U?
+U 1 1 5DB9828F
+P 8500 1750
+F 0 "U?" H 8844 1796 50  0000 L CNN
+F 1 "74LVC1GU04DRL" H 8844 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-553" H 8500 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf" H 8425 1750 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5050 7400 5050
+Wire Wire Line
+	8350 5050 8350 4100
+Wire Wire Line
+	8350 4100 9200 4100
+Wire Wire Line
+	6350 5150 7500 5150
+Wire Wire Line
+	8450 5150 8450 4650
+Wire Wire Line
+	8450 4650 9200 4650
+Wire Wire Line
+	6350 2500 7950 2500
+Wire Wire Line
+	7950 2500 7950 1150
+Wire Wire Line
+	7950 1150 10000 1150
+Wire Wire Line
+	10000 1150 10000 1500
+Connection ~ 10000 1500
+Wire Wire Line
+	6350 2600 10000 2600
+Wire Wire Line
+	10000 2600 10000 2250
+Connection ~ 10000 2250
+Wire Wire Line
+	8700 1750 8800 1750
+Wire Wire Line
+	6350 2900 6900 2900
+Wire Wire Line
+	6900 2900 6900 2650
+Wire Wire Line
+	6900 2650 10000 2650
+Wire Wire Line
+	10000 2650 10000 2950
+Connection ~ 10000 2950
+Wire Wire Line
+	6350 3000 6900 3000
+Wire Wire Line
+	6900 3000 6900 3750
+Wire Wire Line
+	6900 3750 10000 3750
+Wire Wire Line
+	10000 3750 10000 3500
+Connection ~ 10000 3500
+Wire Wire Line
+	8750 3200 9050 3200
+Wire Wire Line
+	9050 3200 9050 2950
+Wire Wire Line
+	9050 2950 9200 2950
+Wire Wire Line
+	9050 3200 9050 3500
+Wire Wire Line
+	9050 3500 9200 3500
+Connection ~ 9050 3200
+Wire Wire Line
+	9150 1600 8800 1600
+Wire Wire Line
+	8800 1600 8800 1750
+Connection ~ 8800 1750
+Wire Wire Line
+	8800 1750 8800 2350
+Wire Wire Line
+	8800 2350 9150 2350
+$Comp
+L power:VCC #PWR?
+U 1 1 5DBF8CC1
+P 8500 850
+F 0 "#PWR?" H 8500 700 50  0001 C CNN
+F 1 "VCC" H 8517 1023 50  0000 C CNN
+F 2 "" H 8500 850 50  0001 C CNN
+F 3 "" H 8500 850 50  0001 C CNN
+	1    8500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DBF9673
+P 8100 850
+F 0 "#PWR?" H 8100 600 50  0001 C CNN
+F 1 "GND" H 8105 677 50  0000 C CNN
+F 2 "" H 8100 850 50  0001 C CNN
+F 3 "" H 8100 850 50  0001 C CNN
+	1    8100 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 3400 8450 3400
+Wire Wire Line
+	8100 2000 8500 2000
+Wire Wire Line
+	8500 2000 8500 1950
+Connection ~ 8100 2000
+Wire Wire Line
+	8100 2000 8100 3400
+Wire Wire Line
+	8100 850  8100 2000
+Wire Wire Line
+	8500 850  8500 1400
+Wire Wire Line
+	8500 1400 8150 1400
+Wire Wire Line
+	8150 1400 8150 3000
+Wire Wire Line
+	8150 3000 8450 3000
+Connection ~ 8500 1400
+Wire Wire Line
+	8500 1400 8500 1550
+Wire Wire Line
+	8400 4300 8400 3450
+Wire Wire Line
+	8400 3450 8050 3450
+Wire Wire Line
+	8050 3450 8050 3200
+Wire Wire Line
+	8050 3200 8250 3200
+Connection ~ 8400 4300
+Wire Wire Line
+	7550 4200 7550 3500
+Wire Wire Line
+	7550 1750 8300 1750
+Connection ~ 7550 4200
+Wire Wire Line
+	7550 2850 9200 2850
+Connection ~ 7550 2850
+Wire Wire Line
+	7550 2850 7550 1750
+Wire Wire Line
+	7550 3500 9000 3500
+Wire Wire Line
+	9000 3500 9000 3400
+Wire Wire Line
+	9000 3400 9200 3400
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3500 7550 2850
+Connection ~ 7900 5900
+Wire Wire Line
+	7900 5900 8050 5900
+Wire Wire Line
+	7900 4750 7900 5900
+Connection ~ 7900 4750
+Wire Wire Line
+	7900 4750 9200 4750
+Wire Wire Line
+	8650 4850 8650 5900
+Connection ~ 8650 4850
+Wire Wire Line
+	8650 4850 9200 4850
+Wire Wire Line
+	8050 3200 8050 2250
+Wire Wire Line
+	8050 1500 9150 1500
+Connection ~ 8050 3200
+Wire Wire Line
+	8050 2250 9150 2250
+Connection ~ 8050 2250
+Wire Wire Line
+	8050 2250 8050 1500
+Wire Wire Line
+	7400 5050 7400 2950
+Wire Wire Line
+	7400 1450 9150 1450
+Wire Wire Line
+	9150 1450 9150 1400
+Connection ~ 7400 5050
+Wire Wire Line
+	7400 5050 8350 5050
+Wire Wire Line
+	7500 2150 9150 2150
+Connection ~ 7500 5150
+Wire Wire Line
+	7500 5150 8450 5150
+Wire Wire Line
+	7500 2150 7500 3600
+Wire Wire Line
+	9200 3600 7500 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	7500 3600 7500 5150
+Wire Wire Line
+	9200 3050 8950 3050
+Wire Wire Line
+	8950 3050 8950 2950
+Wire Wire Line
+	8950 2950 7400 2950
+Connection ~ 7400 2950
+Wire Wire Line
+	7400 2950 7400 1450
+Wire Wire Line
+	6350 4650 6950 4650
+Wire Wire Line
+	6950 4650 6950 3950
+Wire Wire Line
+	6950 3950 9950 3950
+Wire Wire Line
+	9950 3950 9950 4200
+Connection ~ 9950 4200
+Wire Wire Line
+	6350 4750 6950 4750
+Wire Wire Line
+	6950 4750 6950 5350
+Wire Wire Line
+	6950 5350 9950 5350
+Wire Wire Line
+	9950 5350 9950 4750
+Connection ~ 9950 4750
+Text GLabel 1950 1350 0    50   Input ~ 0
+PositiveSig
+Text GLabel 1950 1500 0    50   Input ~ 0
+NegativeSig
+Text GLabel 1950 1650 0    50   Input ~ 0
+PWMWave
+Wire Wire Line
+	1950 1350 2850 1350
+Wire Wire Line
+	2850 1350 2850 1800
+Wire Wire Line
+	2850 5650 3050 5650
+Wire Wire Line
+	2850 4450 3050 4450
+Connection ~ 2850 4450
+Wire Wire Line
+	2850 4450 2850 5650
+Wire Wire Line
+	2850 2850 3050 2850
+Connection ~ 2850 2850
+Wire Wire Line
+	2850 2850 2850 4450
+Wire Wire Line
+	2850 1800 3050 1800
+Connection ~ 2850 1800
+Wire Wire Line
+	2850 1800 2850 2850
+Wire Wire Line
+	1950 1500 2750 1500
+Wire Wire Line
+	2750 1500 2750 2300
+Wire Wire Line
+	2750 5150 3050 5150
+Wire Wire Line
+	2750 3950 3050 3950
+Connection ~ 2750 3950
+Wire Wire Line
+	2750 3950 2750 5150
+Wire Wire Line
+	2750 3350 3050 3350
+Connection ~ 2750 3350
+Wire Wire Line
+	2750 3350 2750 3950
+Wire Wire Line
+	2750 2300 3050 2300
+Connection ~ 2750 2300
+Wire Wire Line
+	2750 2300 2750 3350
+Wire Wire Line
+	1950 1650 2650 1650
+Wire Wire Line
+	2650 1650 2650 1900
+Wire Wire Line
+	2650 5750 3050 5750
+Wire Wire Line
+	2650 5250 3050 5250
+Connection ~ 2650 5250
+Wire Wire Line
+	2650 5250 2650 5750
+Wire Wire Line
+	2650 4550 3050 4550
+Connection ~ 2650 4550
+Wire Wire Line
+	2650 4550 2650 5250
+Wire Wire Line
+	2650 4050 3050 4050
+Connection ~ 2650 4050
+Wire Wire Line
+	2650 4050 2650 4550
+Wire Wire Line
+	2650 3450 3050 3450
+Connection ~ 2650 3450
+Wire Wire Line
+	2650 3450 2650 4050
+Wire Wire Line
+	2650 2950 3050 2950
+Connection ~ 2650 2950
+Wire Wire Line
+	2650 2950 2650 3450
+Wire Wire Line
+	2650 2400 3050 2400
+Connection ~ 2650 2400
+Wire Wire Line
+	2650 2400 2650 2950
+Wire Wire Line
+	2650 1900 3050 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	2650 1900 2650 2400
+Text GLabel 1950 1850 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	7300 6100 2550 6100
+Wire Wire Line
+	2550 6100 2550 1850
+Wire Wire Line
+	2550 1850 1950 1850
+$EndSCHEMATC
